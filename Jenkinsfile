@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Pramod-project/SonarQube-Project-Kastro.git'
+                git branch: 'main', url: 'https://github.com/Akash-project/SonarQube-Project-Kastro.git'
             }
         }
 
@@ -92,6 +92,7 @@ pipeline {
         }
     }
 }
+
 
 
 
